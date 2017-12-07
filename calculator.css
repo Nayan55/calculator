@@ -12,3 +12,13 @@
 	top: 80px;
 	left: 40%;
 }
+
+/* Display */
+.display {
+	background-color: #bfc4ce;
+	width: 200px;
+	position: relative;
+	left: 15px;
+	top: 20px;
+	height: 40px;
+}
