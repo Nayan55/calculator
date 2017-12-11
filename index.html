@@ -11,12 +11,13 @@
 
 <body>
 <!--Add your HTML here-->
+<div class="box">
 	<div class="display"><input type="text" readonly size="18" id="d"></div>
 	<div class="keys">
 		<p>
-				<input type="button" class="button function" value="mrc" nclick="alert('Not yet implemented')">
-				<input type="button" class="button function" value="m-" nclick="alert('Not yet implemented')">
-				<input type="button" class="button function" value="m+" nclick="alert('Not yet implemented')">
+				<input type="button" class="button function" value="mrc" onclick="alert('Not yet implemented')">
+				<input type="button" class="button function" value="m-" onclick="alert('Not yet implemented')">
+				<input type="button" class="button function" value="m+" onclick="alert('Not yet implemented')">
 				<input type="button" class="button operator" value="/" onclick="v('/')">
 		</p>
 		<p>
@@ -41,9 +42,9 @@
 				<input type="button" class="button number" value="0"  onclick="v('0')">
 				<input type="button" class="button number" value="." onclick="v('.')">
 				<input type="button" class="button function" value="C" onclick="d(' ')">
-				<input type="button" class="button operator" value="=" onclick='e( )'>
+				<input type="button" class="button operator" value="=" onclick="e( )">
 			</p>
+		</div>
 	</div>
-</div>
 </body>
 </html>
