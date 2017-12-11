@@ -3,6 +3,7 @@
 // Change Display
 
 function d(val) {
+	"use strict";
 	document.getElementById("d").value = val;
 }
 
