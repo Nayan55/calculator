@@ -4,7 +4,7 @@
 /* Caluclator Box */
 
 .box {
-	background-color: #e5e7ea;
+	background-color: #961C15;
 	height: 300px;
 	width: 250px;
 	border-radius: 10px;
@@ -68,7 +68,7 @@
 
 .button.function {
 	color: white;
-	background-color: #c64f81;
+	background-color: #297F2A;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
