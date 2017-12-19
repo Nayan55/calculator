@@ -1,5 +1,12 @@
 // JavaScript Document
 
+var m = "";
+
+// store memory
+function store_m() {
+	m = document.getElementById("d").value;
+}
+
 // Change Display
 
 function d(val) {
